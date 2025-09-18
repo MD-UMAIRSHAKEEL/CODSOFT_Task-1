@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="header-title">
+      <span id="typewriter"></span><span class="cursor">|</span>
+    </h1>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <img src="image.png" alt="Portrait" class="avatar" />
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p id="desc">Enthusaistic writer and coder which find new ways to solve a problem in an optimum way. Carving the development and DSA skills, and learning new technologies which excites.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul class="skills-grid">
+      <li>HTML &amp; CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Git &amp; GitHub</li>
+      <li>DSA</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-info">
+          <a href="CodSoft Task-2/index.html" class="project-title">The Rajwadi</a>
+          <p>E-Commerce website interface using HTML, CSS and JS.</p>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-info">
+          <a href="CodSoft Task-2/index.html" class="project-title">Calculator</a>
+          <p>Interactive Calculator website using HTML, CSS and JS.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="container center">
+    <h2>Resume</h2>
+    <a href="index.html" class="btn" download >Download PDF</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:md.umair.shakeel@gmail.com">md.umair.shakeel.com</a></p>
+    <p>Phone: +91-6350398502</p>
+    <p>Linkedin : <a href="https://www.linkedin.com/in/mohammed-umair-shakeel/">Umair Shakeel</a></p>
+    <p>GitHub : <a href="https://github.com/MD-UMAIRSHAKEEL">Umair</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer center">
+    <p>© 2025 UMAIR . All rights reserved.</p>
+  </footer>
+
+  <!-- Typewriter Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const tw = document.getElementById("typewriter");
+      const text = "MOHAMMED UMAIR SHAKEEL";
+      let i = 0;
+
+      function type() {
+        if (i <= text.length) {
+          tw.textContent = text.slice(0, i);
+          i++;
+          setTimeout(type, 80);
+        }
+      }
+      type();
+    });
+  </script>
+</body>
+</html>
