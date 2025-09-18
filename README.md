@@ -1,14 +1,14 @@
-# Portfolio Website – Internship Summary
+# 👨🏻‍💼 Portfolio Website – Internship Summary
 
 ---
 
-## Overview
+## 🪟 Overview
 
 A responsive, interactive portfolio that showcases my projects and skills. It’s designed to engage recruiters and fellow developers on any device.
 
 ---
 
-## Key Features
+## 🔑 Key Features
 
 - Fluid, mobile-first layouts with CSS Grid and Flexbox  
 - Smooth animations and aesthetic design   
@@ -16,13 +16,13 @@ A responsive, interactive portfolio that showcases my projects and skills. It’
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 - HTML5, CSS3 (SASS)  
 - Git & GitHub
 ---
 
-## Learning Highlights
+## 🧑🏻‍💻 Learning Highlights
 
 - Mastered advanced layout techniques and UI state management  
 - Built a modular style guide with SASS variables and mixins  
@@ -31,7 +31,7 @@ A responsive, interactive portfolio that showcases my projects and skills. It’
 
 ---
 
-## Next Steps
+## 🪜 Next Steps
 
 - Add a blog powered by Markdown  
 - Integrate UI tests and a headless CMS  
@@ -39,6 +39,6 @@ A responsive, interactive portfolio that showcases my projects and skills. It’
 
 ---
 
-## Conclusion
+## 🔚 Conclusion
 
 This portfolio reflects late-night breakthroughs and hands-on growth. Dive in, explore the code, and let’s keep learning together!
